@@ -46,7 +46,7 @@ export default function Home() {
         </h1>
       </div>
       <div className="flex justify-center pt-0">
-        <div className=" text-black leading-7 my-3 font-semibold max-w-sm rounded-2xl overflow-hidden shadow-2xl mr-3 mt-12 bg-gray-500">
+        <div className=" text-black leading-7 my-3 text-center font-bold max-w-sm rounded-2xl overflow-hidden shadow-2xl mr-3 mt-12 bg-gray-300">
           <p>
             {" "}
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
@@ -55,7 +55,7 @@ export default function Home() {
             aspernatur aliquam?
           </p>
         </div>
-        <div className="  text-black leading-7 my-3 font-semibold max-w-sm rounded-2xl overflow-hidden shadow-2xl mr-3 mt-12 bg-gray-500">
+        <div className="  text-black leading-7 my-3 text-center font-bold max-w-sm rounded-2xl overflow-hidden shadow-2xl mr-3 mt-12 bg-gray-300">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
             commodi. Doloribus magni praesentium voluptatibus. Magni tempora cum
@@ -63,7 +63,7 @@ export default function Home() {
             vel vero modi.
           </p>
         </div>
-        <div className="  text-black leading-7 my-3 font-semibold max-w-sm rounded-2xl overflow-hidden shadow-2xl mr-3 mt-12 bg-gray-500">
+        <div className="  text-black leading-7 my-3 text-center font-bold max-w-sm rounded-2xl overflow-hidden shadow-2xl mr-3 mt-12 bg-gray-300">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illo
             ipsum provident dolorum, cum maiores voluptatibus porro nisi
