@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
-import Input from "postcss/lib/input";
+import Sidenav from "./sidenav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,19 +21,32 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className + "shadow-md w-full top-0 left-0"}>
         <div className="flex items-center justify-start gap-28 p-4 py-4 md:px-10 px-7">
+          <Sidenav />
           <a href="/#">
             <Image src={`/art1.png`} alt="" height={170} width={150} />
           </a>
           <input
-            className="border-2 border-gray-500 rounded-xl"
+            className="border-2 border-gray-500 rounded-xl hidden md:flex"
             type="text"
             placeholder=" What service are u looking for....."
             size={28}
           ></input>
-          <Link className="hover:underline" href="/#"> Home </Link>
-          <Link className="hover:underline" href="/about"> About </Link>
-          <Link className="hover:underline" href="/service"> Service </Link>
-          <Link className="hover:underline" href="/teams"> Teams </Link>
+          <Link className="hidden md:flex hover:underline" href="/#">
+            {" "}
+            Home{" "}
+          </Link>
+          <Link className="hidden md:flex hover:underline" href="/about">
+            {" "}
+            About{" "}
+          </Link>
+          <Link className="hidden md:flex hover:underline" href="/service">
+            {" "}
+            Service{" "}
+          </Link>
+          <Link className="hidden md:flex hover:underline" href="/teams">
+            {" "}
+            Teams{" "}
+          </Link>
         </div>
         {children}
       </body>

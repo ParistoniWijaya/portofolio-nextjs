@@ -3,16 +3,14 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <section> 
-      <div>
-        <Image
-          className="flex-col float-left"
-          src={`/bg12.png`}
-          alt=""
-          height={700}
-          width={700}
-        ></Image>
-      </div>
+    <section className="flex-col">
+      <Image
+        className=" float-left"
+        src={`/bg12.png`}
+        alt=""
+        height={700}
+        width={700}
+      ></Image>
       <div>
         <h1 className="text-wrap text-2xl font-bold text-black text-center pt-24">
           WELCOME TO ARTStudio, YOUR SOLUTION FOR YOUR DREAM HOUSE

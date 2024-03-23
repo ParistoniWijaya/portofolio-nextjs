@@ -26,17 +26,20 @@ function Teams() {
           <>
             <div className="bg-gray-500">
               <Image
-                className="border-black rounded-md overflow-hidden"
+                className="border-black"
                 src={u.picture.medium}
                 alt={u.name.first}
                 width={50}
                 height={50}
               ></Image>
-
-              <p className="border-black rounded-md overflow-hidden">
-                {u.name.title} {u.name.first} {u.name.last} {u.email}
-              </p>
+              <div className="flex justify-around">
+                <p>
+                  {u.name.title} {u.name.first} {u.name.last}
+                </p>
+                <p>{u.email}</p>
+              </div>
             </div>
+            <hr />
           </>
         );
       })}

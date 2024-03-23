@@ -26,12 +26,30 @@ const Service = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-wrap justify-evenly max-w-screen-sm">
-          <Image src={`/bg10.png`} alt="" height={170} width={180}></Image>
-          <Image src={`/bg11.png`} alt="" height={170} width={160}></Image>
-          <Image src={`/bg9.png`} alt="" height={170} width={250}></Image>
+        <div className="flex flex-wrap justify-evenly max-w-screen-sm gap-1">
           <Image
-            className="object-cover rounded-xl"
+            className="rounded-xl md-flex"
+            src={`/bg10.png`}
+            alt=""
+            height={170}
+            width={180}
+          ></Image>
+          <Image
+            className="rounded-xl md-flex"
+            src={`/bg11.png`}
+            alt=""
+            height={170}
+            width={160}
+          ></Image>
+          <Image
+            className="rounded-xl md-flex"
+            src={`/bg9.png`}
+            alt=""
+            height={170}
+            width={250}
+          ></Image>
+          <Image
+            className="object-cover rounded-xl md-flex"
             src={`/bg1.png`}
             alt=""
             height={300}
