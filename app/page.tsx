@@ -8,8 +8,8 @@ export default function Home() {
         className=" float-left"
         src={`/bg12.png`}
         alt=""
-        height={700}
-        width={700}
+        height={300}
+        width={600}
       ></Image>
       <div>
         <h1 className="text-wrap text-2xl font-bold text-black text-center pt-24">
